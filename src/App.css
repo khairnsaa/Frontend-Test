@@ -1,0 +1,27 @@
+.news-title{
+  width: 75%;
+}
+
+.news-img{
+  height: 10rem;
+  object-fit: cover;
+}
+
+.news-detail-img{
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .regis-login-form {
+    min-width: 75% !important;
+  }
+
+  .news-img{ width: 75%;}
+
+  .news-title{
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}
